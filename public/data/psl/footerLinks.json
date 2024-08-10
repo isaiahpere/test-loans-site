@@ -1,0 +1,49 @@
+{
+  "footerLinks": [
+    {
+      "id": "footer_link_1",
+      "name": "Accessibility Statement",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_2",
+      "name": "Terms of Use",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_3",
+      "name": "Privacy",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_4",
+      "name": "Consumer Health Data Privacy Notice",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_5",
+      "name": "Notice of Information We Collect",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_6",
+      "name": "Your Privacy Choices",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_7",
+      "name": "Disclaimer",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_8",
+      "name": "Interest-Based Ads",
+      "url": "/link-page"
+    },
+    {
+      "id": "footer_link_9",
+      "name": "Cookie Settings",
+      "url": "/link-page"
+    }
+  ]
+}

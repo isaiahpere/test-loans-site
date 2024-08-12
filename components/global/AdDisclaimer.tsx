@@ -1,5 +1,6 @@
 import { getAdDisclosureData } from "@/actions/get-psl-disclosure";
 import DisclosureModal from "../modals/DisclosureModal";
+import { Info } from "lucide-react";
 
 const AdDisclaimer = async () => {
   const { adData } = await getAdDisclosureData({ keyName: "psl" });
@@ -9,9 +10,10 @@ const AdDisclaimer = async () => {
   const { title, description } = adData;
 
   return (
-    <div className="h-9 w-full bg-blueExtraLight">
+    <div className="h-9 w-full  bg-blueExtraLight">
       <DisclosureModal title={title} description={description}>
-        <button className="h-full pl-2 bg-transparent text-[0.75rem] text-blueDarkest hover:underline hover:underline-offset-1">
+        <button className="h-full flex items-center justify-center gap-x-1 pl-2 bg-transparent text-[0.70rem] text-blueDarkest hover:underline hover:underline-offset-1">
+          <Info className="w-4 h-4" />
           Advertiser Disclosure
         </button>
       </DisclosureModal>

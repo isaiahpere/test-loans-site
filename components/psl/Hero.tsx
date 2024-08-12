@@ -7,13 +7,13 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-t from-greenDark via-green-900 to-green-950  p-10">
-      <section className="text-white text-center">
+    <div className="bg-gradient-to-t from-greenDark via-green-900 to-green-950  p-10 flex flex-col items-center">
+      <section className="text-white text-center lg:max-w-[800px]">
         <h1 className="text-4xl font-bold mb-4">
           The Best Firm for 2024 Investments
         </h1>
       </section>
-      <section className="flex items-center flex-col w-full gap-6 mt-6">
+      <section className="flex items-center flex-col w-full gap-6 mt-6 max-w-[800px]">
         <div>
           <p className="text-slate-100">
             We understand! Savings, traditional financing, and initial capital
@@ -40,9 +40,9 @@ const Hero = () => {
           </Link>
         </div>
       </section>
-      <section className="text-center mt-6">
+      <section className="text-center mt-6 w-full md:max-w-[600px]">
         <p className="text-md text-muted">Our top Partners</p>
-        <div className="flex items-center flex-col mt-4 gap-y-4 bg-black/10 py-2">
+        <div className="flex items-center justify-center flex-col mt-4 gap-y-4 bg-black/10 py-2 md:flex-row md:gap-x-14">
           <Image
             src={"/images/adidas.png"}
             alt="homepage logo"

@@ -20,7 +20,9 @@ const config = {
     extend: {
       colors: {
         blueSky: "#3498db",
+        blueLight: "#4682b4",
         blueExtraLight: "#d9edf7",
+        blueNomal: "#0d4d7f",
         darkBlue: "#2c3e50",
         brightOrange: "#ea6153",
         lightGray: "#dfe4e4",

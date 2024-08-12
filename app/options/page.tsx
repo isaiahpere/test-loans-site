@@ -1,7 +1,13 @@
-import React from "react";
+import Navbar from "@/components/edv/nav/navbar";
+import AdDisclaimer from "@/components/global/AdDisclaimer";
 
 const LendersPage = () => {
-  return <div>Options Page</div>;
+  return (
+    <main>
+      <Navbar />
+      <AdDisclaimer />
+    </main>
+  );
 };
 
 export default LendersPage;

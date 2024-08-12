@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-t from-greenDark via-green-900 to-green-950 h-screen p-6">
+    <div className="bg-gradient-to-t from-greenDark via-green-900 to-green-950  p-10">
       <section className="text-white text-center">
         <h1 className="text-4xl font-bold mb-4">
           The Best Firm for 2024 Investments
@@ -41,18 +41,16 @@ const Hero = () => {
         </div>
       </section>
       <section className="text-center mt-6">
-        <p className="text-sm text-muted">Our top Partners</p>
-        <div className="flex items-center flex-col">
-          <div>
-            <Image
-              src={"/images/adidasLogo.png"}
-              alt="homepage logo"
-              width={140}
-              height={140}
-            />
-          </div>
+        <p className="text-md text-muted">Our top Partners</p>
+        <div className="flex items-center flex-col mt-4 gap-y-4 bg-black/10 py-2">
           <Image
-            src={"/images/horseyLogo.png"}
+            src={"/images/adidas.png"}
+            alt="homepage logo"
+            width={140}
+            height={140}
+          />
+          <Image
+            src={"/images/horsey.png"}
             alt="homepage logo"
             width={140}
             height={140}

@@ -27,6 +27,7 @@ const config = {
         brightOrange: "#ea6153",
         lightGray: "#dfe4e4",
         greenDark: "#021007",
+        edvOrange: "#f6492b",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

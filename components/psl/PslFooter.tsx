@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const PslFooter = () => {
   return (
-    <footer className="bg-lightGray p-4 flex flex-col items-center justify-center">
+    <footer className="bg-lightGray p-4 flex flex-col items-center justify-center lg:p-8">
       <div className="w-full lg:max-w-[1000px]">
         <section className="flex flex-col gap-y-1 text-[0.75rem] text-center">
           <p>PrivateStudentLoans.com is a service of Edvisors Network Inc.</p>

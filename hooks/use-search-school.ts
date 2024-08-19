@@ -1,4 +1,3 @@
-"use client";
 import { create } from "zustand";
 
 type SearchSchoolStore = {
@@ -8,7 +7,7 @@ type SearchSchoolStore = {
 };
 
 export const useSearchSchoolStore = create<SearchSchoolStore>((set) => ({
-  isOpen: false,
+  isOpen: true,
   onOpen: () => set({ isOpen: true }),
   onClose: () => set({ isOpen: false }),
 }));

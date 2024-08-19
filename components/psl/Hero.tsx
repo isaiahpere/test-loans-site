@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-t from-greenDark via-green-900 to-green-950  p-10 flex flex-col items-center">
+    <div className="bg-gradient-to-t from-greenDark via-green-900 to-green-950  p-16 flex flex-col items-center">
       <section className="text-white text-center lg:max-w-[800px]">
         <h1 className="text-4xl font-bold mb-4">
           The Best Firm for 2024 Investments
@@ -15,14 +15,14 @@ const Hero = () => {
       </section>
       <section className="flex items-center flex-col w-full gap-6 mt-6 max-w-[800px]">
         <div>
-          <p className="text-slate-100">
+          <p className="text-slate-100 text-center max-w-3xl mb-3">
             We understand! Savings, traditional financing, and initial capital
             aren&apos;t always enough. Our platform helps you explore your
             options, compare investment opportunities, and find the right
             solution to make your financial goals a reality!
           </p>
         </div>
-        <div className="w-full flex items-center justify-center flex-col gap-2 md:flex-row">
+        <div className="w-full flex items-center justify-center flex-col gap-2 md:flex-row mb-4">
           {/* pretend this is a form didn't feel like creating one */}
           <Input
             type="text"
@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
       </section>
       <section className="text-center mt-6 w-full md:max-w-[600px]">
-        <p className="text-md text-muted">Our top Partners</p>
+        <p className="text-md text-muted lg:text-lg">Our top Partners</p>
         <div className="flex items-center justify-center flex-col mt-4 gap-y-4 bg-black/10 py-2 md:flex-row md:gap-x-14">
           <Image
             src={"/images/adidas.png"}

@@ -20,7 +20,7 @@ const SchoolSearchModal = () => {
 
   return (
     <Dialog onOpenChange={onClose} open={isOpen} modal defaultOpen={isOpen}>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="sm:max-w-[425px] md:max-w-[580px]">
         <DialogHeader className="gap-2 mb-4">
           <div className="flex flex-col gap-4 mb-4">
             <DialogDescription>

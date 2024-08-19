@@ -27,14 +27,13 @@ const DisclosureModal = ({
   return (
     <Dialog>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="max-w-80">
         <DialogHeader>
-          <DialogTitle>{title}</DialogTitle>
-          <DialogDescription>{description}</DialogDescription>
+          <DialogContent></DialogContent>
         </DialogHeader>
         <DialogFooter>
           <DialogClose asChild>
-            <Button variant={"default"} type="button">
+            <Button variant={"default"} type="button" className="bg-edvOrange">
               Close
             </Button>
           </DialogClose>

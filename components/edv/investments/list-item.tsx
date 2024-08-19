@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import LenderInformation from "./lender-disclosure";
+import LenderInformation from "./lender-information";
 
 interface ListItemProps {
   name: string;

@@ -6,10 +6,6 @@ import { useSearchSchoolStore } from "@/hooks/use-search-school";
 const LendersPage = () => {
   const schoolSearchStore = useSearchSchoolStore();
 
-  let text = schoolSearchStore.isOpen;
-
-  console.log(schoolSearchStore.isOpen);
-
   return (
     <main>
       <section className="p-4 py-6">

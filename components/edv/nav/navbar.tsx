@@ -8,7 +8,7 @@ import EdvDesktopNavbar from "./desktop";
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between bg-blueNomal h-[52px] px-2">
-      <Link href={"https://www.google.com/"}>
+      <Link href={"/"}>
         <Image
           src={"/images/logo.png"}
           alt="hippie times logo"

@@ -16,9 +16,7 @@ const LendersPage = () => {
         <h1 className="text-center text-2xl font-semibold">
           Get The Best Investment Rates For August 2024
         </h1>
-        <p>is Open {schoolSearchStore.isOpen}</p>
       </section>
-      <Button onClick={schoolSearchStore.onClose}>Click Me</Button>
       <List />
     </main>
   );

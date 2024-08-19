@@ -8,3 +8,11 @@ export interface Disclosures {
   psl: Disclosure;
   edv: Disclosure;
 }
+
+// LENDER INFO
+export interface Lender {
+  id: string;
+  name: string;
+  url: string;
+  image: string;
+}

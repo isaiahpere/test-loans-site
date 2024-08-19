@@ -3,9 +3,9 @@ import PslFooter from "@/components/psl/PslFooter";
 import AdDisclaimer from "@/components/global/AdDisclaimer";
 import Hero from "@/components/psl/Hero";
 
-export const HomePage = async () => {
+const Home = () => {
   return (
-    <main className="">
+    <main>
       <PslNavbar />
       <AdDisclaimer />
       <Hero />
@@ -14,4 +14,4 @@ export const HomePage = async () => {
   );
 };
 
-export default HomePage;
+export default Home;

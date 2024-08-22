@@ -18,10 +18,10 @@ const ListItem = ({ name, url, image, isFeatured }: ListItemProps) => {
     <Card
       className={cn(
         "w-full p-3 shadow-md",
-        isFeatured && "border-4 border-edvYellow"
+        isFeatured && "border-[4px] border-edvYellow "
       )}
     >
-      <CardContent className="p-0 relative">
+      <CardContent className="p-0 relative lg:flex lg:items-center lg:pt-[12px] lg:px-[8px]">
         {isFeatured && <FeaturedTag />}
         <div className="flex items-center justify-center mb-4">
           <Image
@@ -29,16 +29,17 @@ const ListItem = ({ name, url, image, isFeatured }: ListItemProps) => {
             alt={`${name} company logo`}
             width={140}
             height={140}
+            className="md:w-[150px] lg:w-[210px] lg:pt-4"
           />
         </div>
-        <div>
-          <div className="flex items-center mb-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center lg:w-full">
+          <div className="flex items-center mb-4 sm:min-w-[60%]  lg:min-w-[70%] xl:min-w-[78%] md:px-[20px] xl:px-32">
             <div className="w-full text-center">
               <span className="text-md text-darkBlue sm:text-lg">
                 Fixed APR
               </span>
               <sup className="text-edvOrange">1</sup>
-              <p className="text-lg font-semibold xs:text-xl sm:text-2xl">
+              <p className="text-md font-semibold xs:text-xl md:text-2xl">
                 4.69% - 13.49%
               </p>
             </div>
@@ -47,23 +48,25 @@ const ListItem = ({ name, url, image, isFeatured }: ListItemProps) => {
                 Variable APR
               </span>
               <sup className="text-edvOrange">1</sup>
-              <p className="text-lg font-semibold xs:text-xl md:text-2xl">
+              <p className="text-md font-semibold xs:text-xl md:text-2xl">
                 5.37% - 20.78%
               </p>
             </div>
           </div>
-          <div className="w-full text-center mb-2">
+          <div className="w-full text-center mb-2 lg:m-0">
             <EnterSchoolModal>
-              <Button className="bg-edvOrange text-lg w-[200px] h-10">
+              <Button className="bg-edvOrange text-lg w-[200px] h-10 md:h-12 md:text-[1.2rem]">
                 Apply Now
               </Button>
             </EnterSchoolModal>
           </div>
         </div>
       </CardContent>
-      <CardFooter className="flex items-center justify-end p-0 pb-2 px-2 mt-4">
+      <CardFooter className="flex items-center justify-end p-0 px-2 mt-1 md:mt-0 lg:p-0 lg:p0 lg:m-0">
         <LenderInformation>
-          <p>Learn More</p>
+          <div className="">
+            <p>Learn More</p>
+          </div>
         </LenderInformation>
       </CardFooter>
     </Card>

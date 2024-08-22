@@ -22,12 +22,10 @@ const SchoolSearchModal = () => {
     <Dialog onOpenChange={onClose} open={isOpen} modal defaultOpen={isOpen}>
       <DialogContent className="sm:max-w-[425px] md:max-w-[490px]">
         <DialogHeader className="gap-2 mb-4">
-          <div className="flex flex-col gap-4 mb-4">
-            <DialogDescription>
-              Only One Step To Compare Your Loan Options
-            </DialogDescription>
-            <DialogTitle>What college will you be attending?</DialogTitle>
-          </div>
+          <DialogTitle>What college will you be attending?</DialogTitle>
+          <DialogDescription className="pb-4">
+            Only One Step To Compare Your Loan Options
+          </DialogDescription>
           <Input placeholder="Enter Your School" />
           <Button
             className="bg-edvOrange border-edvOrange text-lg"

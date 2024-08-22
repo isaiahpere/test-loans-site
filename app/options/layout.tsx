@@ -9,7 +9,7 @@ const EdvLayout = ({ children }: { children: React.ReactNode }) => {
       <Navbar />
       <AdDisclaimer />
       <SchoolSearchModal />
-      {children}
+      <div className="max-w-[1400px] m-auto">{children}</div>
     </div>
   );
 };

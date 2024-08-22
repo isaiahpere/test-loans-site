@@ -5,7 +5,7 @@ import navData from "../../../public/data/edv/navLinks.json";
 
 const Sidebar = () => {
   return (
-    <nav className="h-full w-full flex items-center justify-start flex-col p-6 bg-blueExtraLight">
+    <nav className="h-full w-full flex items-center justify-start flex-col p-6 ">
       <Link href="https://www.google.com/">
         <Image
           src={"/images/logo.png"}
@@ -14,13 +14,18 @@ const Sidebar = () => {
           height={50}
         />
       </Link>
-      <ul className="mt-6 grid gri grid-cols-1 items-center text-center gap-y-8">
+      <ul className="mt-6 grid gri grid-cols-1 items-center text-center gap-y-8 ">
         {navData.navLinks.map((link) => (
-          <li key={link.id} className="font-semibold text-lg">
+          <li key={link.id} className="text-xl text-darkBlue">
             <Link href={link.url}>{link.name}</Link>
           </li>
         ))}
       </ul>
+      <div className="flex items-center justify-center mt-10 gap-5">
+        <div className="w-10 h-10 rounded-full bg-blue-200"></div>
+        <div className="w-10 h-10 rounded-full bg-blue-200"></div>
+        <div className="w-10 h-10 rounded-full bg-blue-200"></div>
+      </div>
     </nav>
   );
 };

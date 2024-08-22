@@ -12,6 +12,7 @@ const List = () => {
           name={lender.name}
           image={lender.image}
           url={lender.url}
+          isFeatured={lender.isFeatured}
         />
       ))}
     </section>

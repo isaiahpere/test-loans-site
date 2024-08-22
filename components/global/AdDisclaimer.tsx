@@ -1,5 +1,5 @@
 import { getAdDisclosureData } from "@/actions/get-psl-disclosure";
-import DisclosureModal from "../modals/DisclosureModal";
+import DisclosureModal from "../modals/disclosure-modal";
 import { Info } from "lucide-react";
 
 const AdDisclaimer = async () => {

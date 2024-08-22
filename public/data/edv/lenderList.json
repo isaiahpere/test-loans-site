@@ -4,37 +4,43 @@
       "id": "lender_1",
       "name": "Ascent",
       "url": "https://www.ascentfunding.com/",
-      "image": "/images/lenders/Ascent_logo.png"
+      "image": "/images/lenders/Ascent_logo.png",
+      "isFeatured": true
     },
     {
       "id": "lender_2",
       "name": "College Ave",
       "url": "https://www.collegeave.com/",
-      "image": "/images/lenders/college-ave-logo.png"
+      "image": "/images/lenders/college-ave-logo.png",
+      "isFeatured": false
     },
     {
       "id": "lender_3",
       "name": "Earnest",
       "url": "https://www.earnest.com/",
-      "image": "/images/lenders/earnest-logo.png"
+      "image": "/images/lenders/earnest-logo.png",
+      "isFeatured": false
     },
     {
       "id": "lender_4",
       "name": "Sallie Mae",
       "url": "https://www.salliemae.com/",
-      "image": "/images/lenders/sallie-mae-logo.png"
+      "image": "/images/lenders/sallie-mae-logo.png",
+      "isFeatured": false
     },
     {
       "id": "lender_5",
       "name": "Sofi",
       "url": "https://www.sofi.com/",
-      "image": "/images/lenders/sofi-logo.png"
+      "image": "/images/lenders/sofi-logo.png",
+      "isFeatured": false
     },
     {
       "id": "lender_6",
       "name": "Y-12 Credit Union",
       "url": "https://www.y12fcu.org/",
-      "image": "/images/lenders/y-12-logo.png"
+      "image": "/images/lenders/y-12-logo.png",
+      "isFeatured": false
     }
   ]
 }

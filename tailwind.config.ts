@@ -36,6 +36,7 @@ const config = {
         lightGray: "#dfe4e4",
         greenDark: "#021007",
         edvOrange: "#f6492b",
+        edvYellow: "#fbbf11",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

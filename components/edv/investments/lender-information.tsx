@@ -52,7 +52,7 @@ const LenderInformation = ({ children }: { children: React.ReactNode }) => {
             non-characteristic words etc.
           </p>
         </AccordionContent>
-        <AccordionTrigger className="p-0" onClick={flipIcon}>
+        <AccordionTrigger className="p-0 justify-end" onClick={flipIcon}>
           <div className="flex items-center">
             {!isOpen && <Plus className="w-4 h-4" />}
             {isOpen && <Minus className="w-4 h-4" />}

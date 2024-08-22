@@ -17,7 +17,7 @@ const ListItem = ({ name, url, image, isFeatured }: ListItemProps) => {
   return (
     <Card
       className={cn(
-        "w-full p-3 shadow-md",
+        "w-full p-3 shadow-md min-h-[150px]",
         isFeatured && "border-[4px] border-edvYellow "
       )}
     >

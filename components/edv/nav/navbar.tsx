@@ -7,7 +7,7 @@ import EdvDesktopNavbar from "./desktop";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between bg-blueNomal h-[52px] px-4">
+    <div className="flex items-center justify-between bg-blueNomal h-[52px] px-4 fixed w-full z-50">
       <Link href={"/"}>
         <Image
           src={"/images/logo.png"}

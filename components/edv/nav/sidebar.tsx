@@ -1,9 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import { useSidebarStore } from "@/hooks/use-mobile-sidebar";
 import navData from "../../../public/data/edv/navLinks.json";
 
 const Sidebar = () => {
+  const { toggle } = useSidebarStore();
+
+  const handleClick = () => {
+    toggle();
+  };
+
   return (
     <nav className="h-full w-full flex items-center justify-start flex-col p-6 ">
       <Link href="https://www.google.com/">
@@ -16,7 +23,11 @@ const Sidebar = () => {
       </Link>
       <ul className="mt-6 grid gri grid-cols-1 items-center text-center gap-y-8 ">
         {navData.navLinks.map((link) => (
-          <li key={link.id} className="text-xl text-darkBlue">
+          <li
+            key={link.id}
+            className="text-xl text-darkBlue"
+            onClick={handleClick}
+          >
             <Link href={link.url}>{link.name}</Link>
           </li>
         ))}

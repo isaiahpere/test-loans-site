@@ -48,6 +48,7 @@ const ScholarshipFilterMenu = ({
               <div className="flex items-center justify-center gap-x-2 overflow-">
                 {military.map((item) => (
                   <Button
+                    key={`${item}-id`}
                     className="text-black text-xs bg-gray-50 border rounded-full h-6 px-2 hover:bg-gray-50"
                     onClick={() => toggleFilter("military", item)}
                   >

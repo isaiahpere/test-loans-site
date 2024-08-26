@@ -15,12 +15,12 @@ const ScholarshipDetails = ({ showDetails }: ScholarshipDetailsProps) => {
         height: showDetails ? "auto" : 0,
         opacity: showDetails ? 1 : 0,
       }}
-      transition={{ duration: 0.2, ease: "easeInOut" }}
+      transition={{ duration: 0.4, ease: "easeInOut" }}
       className={cn("overflow-hidden", showDetails && "my-4")}
     >
       <div className="mt-2">
         <div className="m-auto w-3/4 border-b-2 border-gray-400 mb-4" />
-        <div className="m-10 flex items-center justify-center">
+        <div className="m-2 flex items-center justify-center">
           <Image
             src={"/images/scholarship.png"}
             width={180}

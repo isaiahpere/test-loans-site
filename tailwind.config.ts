@@ -16,6 +16,7 @@ const config = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
+      xxl: "1440px",
       "2xl": "1536px",
     },
     container: {
@@ -27,6 +28,7 @@ const config = {
     },
     extend: {
       colors: {
+        blue2: "#2674b6",
         blueSky: "#3498db",
         blueLight: "#4682b4",
         blueExtraLight: "#d9edf7",
@@ -34,8 +36,9 @@ const config = {
         darkBlue: "#2c3e50",
         brightOrange: "#ea6153",
         lightGray: "#dfe4e4",
-        greenDark: "#021007",
+        greenDark: "#126913",
         edvOrange: "#f6492b",
+        edvOrange2: "#f4980c",
         edvYellow: "#fbbf11",
 
         border: "hsl(var(--border))",

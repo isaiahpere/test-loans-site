@@ -16,3 +16,16 @@ export interface Lender {
   url: string;
   image: string;
 }
+
+export interface Scholarship {
+  id: number;
+  name: string;
+  grade: string;
+  amount: number;
+  expires: string;
+  GPA: number;
+  military: string;
+  athletics: string;
+  recurring: string;
+  disability: string;
+}

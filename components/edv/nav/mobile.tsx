@@ -22,7 +22,9 @@ const EdvMobileNavbar = () => {
         </SheetTrigger>
         <SheetContent>
           <Sidebar />
-          <SheetTitle className="text-center">Best Loans In Town</SheetTitle>
+          <SheetTitle className="text-center mt-5">
+            Best Scholarships In Town
+          </SheetTitle>
           <SheetDescription className="text-center">
             You can also <span className="text-blue-500 underline">Login</span>
           </SheetDescription>

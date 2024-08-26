@@ -52,10 +52,10 @@ const ScholarshipFilterMenu = ({
       </div>
 
       <div className="w-full flex justify-center flex-col items-center mt-2 px-2">
-        <div className="w-full overflow-x-scroll">
+        <div className="w-full overflow-x-auto">
           <div className="flex space-x-4 md:justify-center">
             {military.length > 0 && (
-              <div className="flex items-center justify-center gap-x-2 overflow-">
+              <div className="flex items-center justify-center gap-x-2">
                 {military.map((item) => (
                   <Button
                     key={`${item}-id`}

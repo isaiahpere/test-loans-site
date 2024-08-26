@@ -31,6 +31,7 @@ const PslFooter = () => {
               alt="better business bureau"
               height={60}
               width={80}
+              className="w-full h-auto"
             />
           </Link>
         </section>

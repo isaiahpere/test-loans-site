@@ -46,20 +46,23 @@ const Hero = () => {
           <Image
             src={"/images/adidas.png"}
             alt="homepage logo"
-            width={140}
+            width={100}
             height={140}
+            className="w-auto h-auto"
           />
           <Image
             src={"/images/horsey.png"}
             alt="homepage logo"
             width={140}
             height={140}
+            className="w-auto h-auto"
           />
           <Image
             src={"/images/nikeLogo.png"}
             alt="homepage logo"
             width={100}
             height={100}
+            className="w-auto h-auto"
           />
         </div>
       </section>

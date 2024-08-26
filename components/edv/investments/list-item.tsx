@@ -29,7 +29,7 @@ const ListItem = ({ name, url, image, isFeatured }: ListItemProps) => {
             alt={`${name} company logo`}
             width={140}
             height={140}
-            className="md:w-[150px] lg:w-[210px] lg:pt-4"
+            className="h-auto md:w-[150px] lg:w-[210px] lg:pt-4"
           />
         </div>
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center lg:w-full">

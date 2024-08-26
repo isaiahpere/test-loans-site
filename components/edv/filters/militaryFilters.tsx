@@ -58,10 +58,11 @@ const MilitaryFilter = () => {
                   id={`${option}-selection`}
                   checked={military.includes(option)}
                   onChange={() => handleToggle(option)}
+                  className="cursor-pointer"
                 />
                 <label
                   htmlFor={`${option}-selection`}
-                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                  className="text-sm font-medium leading-none  cursor-pointer"
                 >
                   {option}
                 </label>

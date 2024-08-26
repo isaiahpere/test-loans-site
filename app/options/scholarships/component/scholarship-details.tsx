@@ -27,6 +27,7 @@ const ScholarshipDetails = ({ showDetails }: ScholarshipDetailsProps) => {
             height={140}
             priority
             alt="scholarship success"
+            className="w-auto h-auto"
           />
         </div>
         <p>

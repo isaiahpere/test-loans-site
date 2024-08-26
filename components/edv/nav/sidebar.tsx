@@ -12,7 +12,7 @@ const Sidebar = () => {
   };
 
   return (
-    <nav className="h-full w-full flex items-center justify-start flex-col p-6 ">
+    <nav className="h-3/4 w-full flex items-center justify-start flex-col p-6 ">
       <Link href="https://www.google.com/">
         <Image
           src={"/images/logo.png"}

@@ -17,6 +17,33 @@ export interface Lender {
   image: string;
 }
 
+// SCHOLARSHIP FILTERS
+
+export type MilitaryOption =
+  | "Navy"
+  | "Army"
+  | "Marines"
+  | "Coast Guard"
+  | "Air Force";
+export type AthleticsOption =
+  | "Soccer"
+  | "Basketball"
+  | "Baseball"
+  | "Volleyball"
+  | "Softball"
+  | "Tennis"
+  | "Track"
+  | "None";
+export type RecurringOption = "None" | "Monthly" | "Quarterly" | "Annually";
+export type DisabilityOption =
+  | "Hearing Impaired"
+  | "Learning Disability"
+  | "Mental Disability"
+  | "Physical Disability"
+  | "Speech Disability"
+  | "Visually Impaired"
+  | "None";
+
 export interface Scholarship {
   id: number;
   name: string;

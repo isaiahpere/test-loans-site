@@ -22,13 +22,23 @@ const ScholarshipFilterMenu = ({
         <ScholarshipFilters>
           <Button
             className={cn(
-              "border-2 rounded-2xl",
-              military.length && "border-green-600"
+              "border-2 rounded-2xl flex items-center",
+              military.length && "border-emerald-700 text-emerald-700"
             )}
             variant={"outline"}
           >
-            <SlidersHorizontal className="w-4 h-4 mr-1" />
+            <SlidersHorizontal
+              className={cn(
+                "w-4 h-4 mr-1",
+                military.length > 0 && "text-emerald-700"
+              )}
+            />
             Filter
+            {military.length > 0 && (
+              <span className="pl-1 text-border text-emerald-700">
+                {military.length}
+              </span>
+            )}
           </Button>
         </ScholarshipFilters>
         <Button
@@ -41,7 +51,7 @@ const ScholarshipFilterMenu = ({
         </Button>
       </div>
 
-      <div className="w-full flex justify-center flex-col items-center mt-2">
+      <div className="w-full flex justify-center flex-col items-center mt-2 px-2">
         <div className="w-full overflow-x-scroll">
           <div className="flex space-x-4 md:justify-center">
             {military.length > 0 && (
@@ -59,7 +69,7 @@ const ScholarshipFilterMenu = ({
                 <Button
                   variant={"ghost"}
                   onClick={clearFilters}
-                  className="p-0 h-min text-darkBlue underline"
+                  className="p-0 h-min text-blue2 underline"
                 >
                   Clear Filters
                 </Button>

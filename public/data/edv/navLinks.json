@@ -2,8 +2,8 @@
   "navLinks": [
     {
       "id": "nav_link_1",
-      "name": "Loans",
-      "url": "/options/loans"
+      "name": "Scholarships",
+      "url": "/options/scholarships"
     },
     {
       "id": "nav_link_2",

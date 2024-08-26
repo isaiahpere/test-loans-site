@@ -60,7 +60,7 @@ const MilitaryFilter = () => {
                   onChange={() => handleToggle(option)}
                 />
                 <label
-                  htmlFor={`${option}-selection`}
+                  htmlFor={`${option}-identifier`}
                   className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 >
                   {option}

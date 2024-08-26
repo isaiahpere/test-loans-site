@@ -43,7 +43,7 @@ const ScholarshipList = () => {
   };
 
   return (
-    <section className="mt-8 flex flex-col items-center justify-center gap-y-6 md:px-[2rem]">
+    <section className="mt-8 flex flex-col items-center justify-center gap-y-6 md:px-[2rem] relative">
       <ScholarshipMenu
         scholarshipCount={customScholarships.length}
         onSort={toggleSorting}
